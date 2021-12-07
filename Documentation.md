@@ -77,14 +77,23 @@ Then, I entered the command,
 ( docker-compose logs -f wireguard )
 which showed me the execution logs and QR Codes of the VPN connection settings.
 I went into my phone and first took a screenshot of my IP address on ipleak.net.
-
+( Look at screenshots at bottom of page. )
 Then I turned on the VPN and did the same thing which showed that my ip address changed.
-
+( Look at screenshots at bottom of page. )
 Next, I had to run the VPN on my computer.
 I started by downloading wireguard and finding the config file I needed to connect.
 I found the file by using the command,
 ( cat ~/wireguard/config/peer2/peer2.conf )
 I copied and pasted the contents and then plugged that into the tunnel, which successfully gave me the VPN connection.
+I already had my original ip address pulled up on ipleak.net.
+I opened another browser and after turning on my VPN and connecting it to my mac, I looked up ipleak.net again and seen that my ip address was succesfully changed.
+Lastly, I took screenshots of both ip addresses side by side.
 
-<img src="https://user-images.githubusercontent.com/29709211/144539352-4f3ef034-fa96-43a6-9246-918c2a38f424.PNG" width="250" height="500"> |<img src="https://user-images.githubusercontent.com/29709211/144539391-d8a7688d-7d94-4799-9a5c-3dd6a3b3ff68.PNG" width="250" height="500">|<img src="https://user-images.githubusercontent.com/29709211/144539462-c25687fb-6baf-40a8-aee5-1a6ff6b58120.png" width="550" height="500">
+Now, I will show you the screenshots that mentioned earlier.
+
+The screenshot on the left is my original phone ip address and the screenshot on the right is my new VPN ip address.
+<img src="https://user-images.githubusercontent.com/29709211/144539352-4f3ef034-fa96-43a6-9246-918c2a38f424.PNG" width="250" height="500"> |<img src="https://user-images.githubusercontent.com/29709211/144539391-d8a7688d-7d94-4799-9a5c-3dd6a3b3ff68.PNG" width="250" height="500">
+
+This is the Picture of both my original IP Address and my new IP Address side by side on my Mac.
+<img src="https://user-images.githubusercontent.com/29709211/144539462-c25687fb-6baf-40a8-aee5-1a6ff6b58120.png" width="850" height="500">
 
