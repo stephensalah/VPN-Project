@@ -1,4 +1,4 @@
-Welcome to my detailed instructions of how I completed my Cloud VPN-Docker Project using WireGuard.
+## Welcome to my detailed instructions of how I completed my Cloud VPN-Docker Project using WireGuard.
 ## ( Commands will be shown in parenthesis format just like this. )
 
 First, I  created a DigitalOcean.com account. 
