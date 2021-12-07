@@ -10,38 +10,7 @@ In the instructions, it says to setup WireGuard by doing a couple of commands to
 ## ( mkdir -p ~/wireguard/ )
 ## ( mkdir -p ~/wireguard/config/ )
 ## ( nano ~/wireguard/docker-compose.yml )
-After these commands, it opened the compose file where I copied and pasted,
-(
-version: '3.8'
-services:
-  wireguard:
-    container_name: wireguard
-    image: linuxserver/wireguard
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Asia/Hong_Kong
-      - SERVERURL=1.2.3.4
-      - SERVERPORT=51820
-      - PEERS=pc1,pc2,phone1
-      - PEERDNS=auto
-      - INTERNAL_SUBNET=10.0.0.0
-    ports:
-      - 51820:51820/udp
-    volumes:
-      - type: bind
-        source: ./config/
-        target: /config/
-      - type: bind
-        source: /lib/modules
-        target: /lib/modules
-    restart: always
-    cap_add:
-      - NET_ADMIN
-      - SYS_MODULE
-    sysctls:
-      - net.ipv4.conf.all.src_valid_mark=1
-)
+After these commands, it opened the compose file where I copied and pasted the compose file on https://thematrix.dev/setup-wireguard-vpn-server-with-docker/ .
 I changed my time zone from Hong Kong to Chicago because that is the closest place to me.
 I changed my SERVERURL from 1.2.3.4 to my actual IP address which was 128.199.4.182.
 Lastly, I changed PEERS=3 to allow 3 user config files.
