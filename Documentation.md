@@ -77,7 +77,7 @@ Then, I entered the command,
 ( docker-compose logs -f wireguard )
 which showed me the execution logs and QR Codes of the VPN connection settings.
 I went into my phone and first took a screenshot of my IP address on ipleak.net.
-![IMG_4778](https://user-images.githubusercontent.com/29709211/144539352-4f3ef034-fa96-43a6-9246-918c2a38f424.PNG)
+![IMG_4778](https://user-images.githubusercontent.com/29709211/144539352-4f3ef034-fa96-43a6-9246-918c2a38f424.PNG = 250x250)
 
 Then I turned on the VPN and did the same thing which showed that my ip address changed.
 ![IMG_4779](https://user-images.githubusercontent.com/29709211/144539391-d8a7688d-7d94-4799-9a5c-3dd6a3b3ff68.PNG)
